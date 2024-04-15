@@ -1,0 +1,40 @@
+{
+    "core": [
+        "0.11.14",
+        "1.6.5",
+        "1.7.3"
+    ],
+    "providers": [{
+            "namespace": "getstackhead",
+            "name": "acme",
+            "versions": [
+                "1.5.0-patched"
+            ]
+        },
+        {
+            "namespace": "hashicorp",
+            "name": "random",
+            "versions": [
+                "3.6.0"
+            ]
+        },
+        {
+            "namespace": "hashicorp",
+            "name": "local",
+            "versions": [
+                "2.4.1"
+            ]
+        },
+        {
+            "namespace": "hashicorp",
+            "name": "aws",
+            "versions": [
+                "3.11.0",
+                "3.12.0",
+                "5.37.0",
+                "5.32.0"
+            ]
+        }
+    ]
+}
+
